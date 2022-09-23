@@ -1,3 +1,5 @@
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.pch filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
 *.target filter=lfs diff=lfs merge=lfs -text
 *.dll filter=lfs diff=lfs merge=lfs -text
@@ -10,9 +12,7 @@
 *.bin filter=lfs diff=lfs merge=lfs -text
 *.cpp filter=lfs diff=lfs merge=lfs -text
 *.h filter=lfs diff=lfs merge=lfs -text
-*.obj filter=lfs diff=lfs merge=lfs -text
 *.response filter=lfs diff=lfs merge=lfs -text
-*.pch filter=lfs diff=lfs merge=lfs -text
 *.deps filter=lfs diff=lfs merge=lfs -text
 *.uhtmanifest filter=lfs diff=lfs merge=lfs -text
 *.uhtpath filter=lfs diff=lfs merge=lfs -text
